@@ -62,9 +62,7 @@ const [value, setValue] = useState<string[]>([]);
 ## Dev
 
 ```bash
-npm run dev            # Storybook
-npm run build          # Library build
+npm run dev
+npm run build
 npm run build-storybook
 ```
-
-Only runtime dep: `@floating-ui/react-dom` (~3KB). Peer deps: React 18+.
